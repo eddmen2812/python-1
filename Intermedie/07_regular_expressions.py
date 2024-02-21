@@ -63,9 +63,10 @@ print(re.findall(patter, my_strings))
 
 #email validaton (regex)
 #Aprender expresiones regulares : https://regex101.com
-email = "edimen@correo.com"
-pattn = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z-9-.]+$"
-print(re.search(pattn, email))
-print(re.findall(pattn, email))
-print(re.match(pattn, email))
-/*
+
+#email = "edimen@correo.com"
+#pattn = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z-9-.]+$"
+#print(re.search(pattn, email))
+#print(re.findall(pattn, email))
+#print(re.match(pattn, email))
+
